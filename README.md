@@ -3,7 +3,7 @@
 
 添加：
 
-###Step 1. Add it in your root build.gradle at the end of repositories:
+### Step 1. Add it in your root build.gradle at the end of repositories:
 ```
 allprojects {
 		repositories {
@@ -13,7 +13,7 @@ allprojects {
 	}
 ```
 
-###Step 2. Add the dependency
+### Step 2. Add the dependency
 ```
 dependencies {
 	        implementation 'com.github.kimlllll:BarUtils:1.0.0'
@@ -21,9 +21,9 @@ dependencies {
 ```
 
 
-##使用方法：
+## 使用方法：
 
-####1. 将你的AndroidManifest.xml文件中的Theme设置成NoActionBar
+#### 1. 将你的AndroidManifest.xml文件中的Theme设置成NoActionBar
 ```
 <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -33,9 +33,9 @@ dependencies {
     </style>
 ```
 
-####2.设置沉浸式状态栏
+#### 2.设置沉浸式状态栏
   
-#####第一种方式： 使用BarUtils
+##### 第一种方式： 使用BarUtils
  1.把你的Activity根布局获取到
  2.使用BarUtils设置沉浸式状态栏
 ```
@@ -49,13 +49,15 @@ dependencies {
         BarUtils.setStatusBarLightMode(this,true);
 
 ```
-#####第二种方式：使用Bar2Utils
+##### 第二种方式：使用Bar2Utils
 ```
-       //设置StatusBar的颜色
+        //设置StatusBar的颜色
         Bar2Utils.setColorNoTranslucent(this,Color.WHITE);
         //设置StatusBar为light模式
         Bar2Utils.setStatusBarLightMode(this,true);
 ```
+
+
 
 
 
