@@ -57,6 +57,7 @@ dependencies {
         Bar2Utils.setStatusBarLightMode(this,true);
 ```
 
+第二种比第一种简单 两句代码即可。
 
 
 
